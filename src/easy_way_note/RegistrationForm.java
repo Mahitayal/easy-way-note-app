@@ -264,8 +264,8 @@ public class RegistrationForm extends javax.swing.JFrame {
     public void Info() {
     try {
         String connurl = "jdbc:mysql://localhost:3306/details";
-        String dbUser = "root";
-        String dbPass = "root";
+        String dbUser = "";
+        String dbPass = "";
 
         Connection c = DriverManager.getConnection(connurl, dbUser, dbPass);
 

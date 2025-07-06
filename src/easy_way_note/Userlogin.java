@@ -161,8 +161,8 @@ public class Userlogin extends javax.swing.JFrame {
     public void LoginNext(){
         try{
              String connurl = "jdbc:mysql://localhost:3306/details";
-             String username = "root";
-//             String password = "root";
+             String username = "";
+
 
         Connection c = DriverManager.getConnection(connurl,username,"root");
         Statement st = c.createStatement();
@@ -198,8 +198,8 @@ public class Userlogin extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 try{
              String connurl = "jdbc:mysql://localhost:3306/details";
-             String username = "root";
-             String password = "root";
+             String username = "";
+             String password = "";
 
         Connection c = DriverManager.getConnection(connurl,username,password);
         Statement st = c.createStatement();

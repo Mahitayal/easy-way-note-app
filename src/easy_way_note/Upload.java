@@ -290,8 +290,8 @@ this.dispose();
    String sem = c6.getSelectedItem().toString();
    
     String connurl = "jdbc:mysql://localhost:3306/details";
-    String username = "root";
-    String password = "root";
+    String username = "";
+    String password = "";
     
     Connection c = DriverManager.getConnection(connurl, username, password);
     Statement st= c.createStatement();

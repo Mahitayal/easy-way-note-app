@@ -257,8 +257,8 @@ this.dispose();
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
 try{
              String connurl = "jdbc:mysql://localhost:3306/details";
-             String username = "root";
-             String password = "root";
+             String username = "";
+             String password = "";
 
         Connection c = DriverManager.getConnection(connurl,username,password);
         Statement st = c.createStatement();
