@@ -164,7 +164,7 @@ public class Userlogin extends javax.swing.JFrame {
              String username = "";
 
 
-        Connection c = DriverManager.getConnection(connurl,username,"root");
+        Connection c = DriverManager.getConnection(connurl,username,"");
         Statement st = c.createStatement();
          // Execute a query        
         ResultSet rs  = st.executeQuery("select * from  USERS where username  =  '"+t1.getText()+"' and password = '"+t2.getText()+"'");
